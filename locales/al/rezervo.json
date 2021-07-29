@@ -1,0 +1,19 @@
+{
+    "adresa": "Adresa",
+    "adresaDesc": "Vero Xhambo - Rruga 113 nr.3 1200 Tetovë",
+    "adresaZip": "1200 Tetovë",
+    "kontakt": "Na kontaktoni",
+    "suport": "Ju përkrahim",
+    "shembull": "shembull@email.com",
+    "rezervoni": "Rezervoni Takim",
+    "rezervoniDesc": "Shënoni detajet dhe ne do ju kontaktojme nëpërmjet telefonit apo emailit",
+    "emri": "Emri juaj:",
+    "emriPlaceholder": "Shënoni emrin",
+    "email": "E-maili juaj:",
+    "emailPlaceholder": "sh. shembull@email.com",
+    "kontakt2": "Kontakt telefoni:",
+    "kontakt2Placeholder": "Numri juaj",
+    "mesazh": "Mesazhi:",
+    "mesazhPlaceholder": "Dërgoni mesazh",
+    "buton": "dërgo"
+}

@@ -1,0 +1,5 @@
+---
+title: 'SYZE OPTIKE'
+description: 'Nga syze pa rrethoja, me gjysmë rrethoja, në rrethoja të plota, të gjitha syzet e Cool Vision ofrojnë lehtësi të pashembullt dhe mundësi të pakufizuara për sa i përket formës, ngjyrës dhe dizajnit, të cilat janë bërë me materiale të cilësisë së lartë!'
+image: ''
+---

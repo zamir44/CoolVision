@@ -1,0 +1,11 @@
+{
+    "locales": ["al", "mk"],
+    "defaultLocale": "al",
+    "pages": {
+        "*": ["common"],
+        "/syzet/optike": ["optike"],
+        "/syzet/dielli": ["dielli"],
+        "/rezervo": ["rezervo"],
+        "/aksesor": ["aksesorë"]
+    }
+}

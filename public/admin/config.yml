@@ -1,0 +1,69 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+  # local_backend: true
+
+media_folder: "public/images"
+public_folder: "images"
+
+collections:
+  - name: "swiper"
+    label: "Swiper"
+    editor:
+      preview: false
+    label_singular: "Swiper One"
+    folder: "content/swipers/swiperOne"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    i18n: true
+    fields:
+      - { label: "Featured Image", name: "swiper image", required: true, widget: "image", i18n: true, }
+      - { label: "Description", name: "description", required: true, widget: "string", i18n: true, }
+    
+    - name: "swiperTwo"
+      label: "SwiperTwo"
+      editor:
+      preview: false
+      label_singular: "Swiper One"
+      create: true
+      folder: "content/swiper/swiperTwo"
+      slug: "{{slug}}"
+      extension: "md"
+      format: "yaml-frontmatter"
+      i18: true
+      fields: 
+        - {label: "Featured Image" name: "swiper image", required: true, widget: "image", i18n: true,}
+        - {label: "Description" name: "description", required: true, widget: "string", i18n: true,}
+
+    - name: "aksesorë"
+      label: "Aksesorë"
+      editor: 
+      preview: false
+      create: true
+      folder: "content/aksesorë"
+      slug: {{slug}}
+      extension: "md"
+      format: "yaml-formatter"
+      i18: true
+      fields: 
+        - {label: "Product name" name: "product", required: true, widget: "string", i18n: true}
+        - {label: "Featured Image" name: "product image", required: true, widget: "image", i18n: true,}
+        - {label: "Description" name: "product description", required: true, widget: "string", i18n: true}
+
+    - name: "hero"
+      label: "Hero"
+      editor: 
+      preview: false
+      create: true
+      folder: "content/hero"
+      slug: {{slug}}
+      extension: "md"
+      format: "yaml-formatter"
+      i18: true
+      fields: 
+        - {label: "Hero Title" name: "title", required: true, widget: "string", i18n: true}
+        - {label: "Hero Description" name: "descritpion", required: true, widget: "string", i18n: true}
+        - {label: "Image" name: "image", required: true, widget: "image", i18n: true}

@@ -1,0 +1,5 @@
+---
+title: 'SYZE DIELLI'
+description: 'Cool Vision syzet kombinojnë syze dielli të qëndrueshme me estetikën urbane. Stilet e lehta janë importuar në zemër të Tetovës. Zgjidhni syzet e diellit nga koleksioni ynë i gjerë!'
+image: ''
+---
